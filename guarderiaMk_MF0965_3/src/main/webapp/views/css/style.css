@@ -1,0 +1,155 @@
+/* Reset de estilos básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Comic Sans MS", sans-serif;
+    line-height: 1.6;
+    background-image: url("../img/bg.jpg");
+}
+
+.container {
+    max-width: 800px; /* Ajusta el ancho máximo según tus necesidades */
+    margin: 20px auto; /* Centra el contenedor con margen en los laterales */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera para destacar */
+    overflow: hidden; /* Evita que los botones sobresalgan fuera del contenedor */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+form {
+    margin-top: 20px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="number"],
+textarea,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Comic Sans MS", sans-serif;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.boton:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo específico para botones en línea izquierda */
+.boton.izquierda {
+    background-color: mediumseagreen;
+    border-color: seagreen;
+    float: left;
+    clear: left; /* Limpia el float para evitar que los elementos floten alrededor */
+}
+
+.boton.izquierda:hover {
+    background-color: seagreen;
+}
+
+/* Estilo específico para botones en línea derecha */
+.boton.derecha {
+    background-color: indianred;
+    border-color: #d55151;
+    float: right;
+    clear: right; /* Limpia el float para evitar que los elementos floten alrededor */
+}
+
+.boton.derecha:hover {
+    background-color: darkred;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.errorInput {
+    border: 2px solid indianred;
+}
+
+.validoInput {
+    border: 2px solid mediumseagreen;
+}
+
+.rojo {
+    color: red;
+}
+
+.msn {
+    margin-left: 10px;
+}
+
+.derecha {
+    float: right;
+}
+
+.izquierda {
+    float: left;
+}
+
+#autorizacionesContainer {
+    margin-top: 20px;
+}
+
+#autorizaciones {
+    margin-bottom: 20px; /* Aumentamos el espacio inferior para separar de los botones */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+#autorizaciones h2 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+#autorizaciones button {
+    margin-top: 10px;
+    margin-right: 10px;
+}
